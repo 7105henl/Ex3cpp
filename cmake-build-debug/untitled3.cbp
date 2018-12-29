@@ -80,10 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/Command.cpp">
+		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Commands/Command.cpp">
 			<Option target="untitled3"/>
 		</Unit>
-		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/Command.h">
+		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Commands/Command.h">
+			<Option target="untitled3"/>
+		</Unit>
+		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Commands/CreateCommand.h">
 			<Option target="untitled3"/>
 		</Unit>
 		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/Consts.cpp">
@@ -96,6 +99,12 @@
 			<Option target="untitled3"/>
 		</Unit>
 		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/EnvironmentVars.h">
+			<Option target="untitled3"/>
+		</Unit>
+		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Handlers/Conditions.cpp">
+			<Option target="untitled3"/>
+		</Unit>
+		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Handlers/Conditions.h">
 			<Option target="untitled3"/>
 		</Unit>
 		<Unit filename="/Users/ronen/Desktop/chens proj1/Ex3cpp/Interpreter/Interpreter.cpp">

@@ -3,7 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled3.dir/Common/EnvironmentVars.cpp.o"
   "CMakeFiles/untitled3.dir/Common/Consts.cpp.o"
   "CMakeFiles/untitled3.dir/Interpreter/Interpreter.cpp.o"
-  "CMakeFiles/untitled3.dir/Common/Command.cpp.o"
+  "CMakeFiles/untitled3.dir/Commands/Command.cpp.o"
+  "CMakeFiles/untitled3.dir/Handlers/Conditions.cpp.o"
   "untitled3.pdb"
   "untitled3"
 )

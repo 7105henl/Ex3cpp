@@ -123,32 +123,32 @@ untitled3/fast:
 	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/build
 .PHONY : untitled3/fast
 
-Common/Command.o: Common/Command.cpp.o
+Commands/Command.o: Commands/Command.cpp.o
 
-.PHONY : Common/Command.o
+.PHONY : Commands/Command.o
 
 # target to build an object file
-Common/Command.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Common/Command.cpp.o
-.PHONY : Common/Command.cpp.o
+Commands/Command.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Commands/Command.cpp.o
+.PHONY : Commands/Command.cpp.o
 
-Common/Command.i: Common/Command.cpp.i
+Commands/Command.i: Commands/Command.cpp.i
 
-.PHONY : Common/Command.i
+.PHONY : Commands/Command.i
 
 # target to preprocess a source file
-Common/Command.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Common/Command.cpp.i
-.PHONY : Common/Command.cpp.i
+Commands/Command.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Commands/Command.cpp.i
+.PHONY : Commands/Command.cpp.i
 
-Common/Command.s: Common/Command.cpp.s
+Commands/Command.s: Commands/Command.cpp.s
 
-.PHONY : Common/Command.s
+.PHONY : Commands/Command.s
 
 # target to generate assembly for a file
-Common/Command.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Common/Command.cpp.s
-.PHONY : Common/Command.cpp.s
+Commands/Command.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Commands/Command.cpp.s
+.PHONY : Commands/Command.cpp.s
 
 Common/Consts.o: Common/Consts.cpp.o
 
@@ -203,6 +203,33 @@ Common/EnvironmentVars.s: Common/EnvironmentVars.cpp.s
 Common/EnvironmentVars.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Common/EnvironmentVars.cpp.s
 .PHONY : Common/EnvironmentVars.cpp.s
+
+Handlers/Conditions.o: Handlers/Conditions.cpp.o
+
+.PHONY : Handlers/Conditions.o
+
+# target to build an object file
+Handlers/Conditions.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Handlers/Conditions.cpp.o
+.PHONY : Handlers/Conditions.cpp.o
+
+Handlers/Conditions.i: Handlers/Conditions.cpp.i
+
+.PHONY : Handlers/Conditions.i
+
+# target to preprocess a source file
+Handlers/Conditions.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Handlers/Conditions.cpp.i
+.PHONY : Handlers/Conditions.cpp.i
+
+Handlers/Conditions.s: Handlers/Conditions.cpp.s
+
+.PHONY : Handlers/Conditions.s
+
+# target to generate assembly for a file
+Handlers/Conditions.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled3.dir/build.make CMakeFiles/untitled3.dir/Handlers/Conditions.cpp.s
+.PHONY : Handlers/Conditions.cpp.s
 
 Interpreter/Interpreter.o: Interpreter/Interpreter.cpp.o
 
@@ -267,15 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled3"
-	@echo "... Common/Command.o"
-	@echo "... Common/Command.i"
-	@echo "... Common/Command.s"
+	@echo "... Commands/Command.o"
+	@echo "... Commands/Command.i"
+	@echo "... Commands/Command.s"
 	@echo "... Common/Consts.o"
 	@echo "... Common/Consts.i"
 	@echo "... Common/Consts.s"
 	@echo "... Common/EnvironmentVars.o"
 	@echo "... Common/EnvironmentVars.i"
 	@echo "... Common/EnvironmentVars.s"
+	@echo "... Handlers/Conditions.o"
+	@echo "... Handlers/Conditions.i"
+	@echo "... Handlers/Conditions.s"
 	@echo "... Interpreter/Interpreter.o"
 	@echo "... Interpreter/Interpreter.i"
 	@echo "... Interpreter/Interpreter.s"

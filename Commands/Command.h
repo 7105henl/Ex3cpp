@@ -5,11 +5,16 @@
 #ifndef UNTITLED3_COMMAND_H
 #define UNTITLED3_COMMAND_H
 
+#include <string>
+#include <vector>
+using namespace std;
 
 class Command {
 public:
     virtual void doCommand() = 0;
-    virtual ~Command(){};
+    virtual void parameterNext(string& current) = 0;
+
+    virtual ~Command() {};
 };
 
 

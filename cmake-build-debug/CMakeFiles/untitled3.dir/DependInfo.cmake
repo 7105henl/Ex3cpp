@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/Command.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/Common/Command.cpp.o"
+  "/Users/ronen/Desktop/chens proj1/Ex3cpp/Commands/Command.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/Commands/Command.cpp.o"
   "/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/Consts.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/Common/Consts.cpp.o"
   "/Users/ronen/Desktop/chens proj1/Ex3cpp/Common/EnvironmentVars.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/Common/EnvironmentVars.cpp.o"
+  "/Users/ronen/Desktop/chens proj1/Ex3cpp/Handlers/Conditions.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/Handlers/Conditions.cpp.o"
   "/Users/ronen/Desktop/chens proj1/Ex3cpp/Interpreter/Interpreter.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/Interpreter/Interpreter.cpp.o"
   "/Users/ronen/Desktop/chens proj1/Ex3cpp/main.cpp" "/Users/ronen/Desktop/chens proj1/Ex3cpp/cmake-build-debug/CMakeFiles/untitled3.dir/main.cpp.o"
   )
